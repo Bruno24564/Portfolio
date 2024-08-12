@@ -1,4 +1,8 @@
-div {
-text-align: center;
-font-size: 14px;
+body {
+    text-align: center;
+}
+img { 
+    position: center;
+    width: 20%;
+    height: auto;
 }
