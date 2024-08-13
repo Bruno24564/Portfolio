@@ -9,10 +9,49 @@ img {
     width: 500px;
     height: 300px;    
 }
-p{
+p {
     text-align: center;
 }
 h2{
     text-align: center;
 }
 
+.container {
+    padding: 5px;
+}
+nav {
+background-color: black;
+}
+
+nav ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center
+}
+
+nav ul li {
+    text-align: center;
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+}
+
+nav ul li a{
+    color: white;
+}
+
+.number {
+    padding: 5px;
+}
+
+nav {
+    text-align: center;
+
+;
+    background: grey
+}
+
+nav a{
+    color: white;
+}
