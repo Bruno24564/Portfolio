@@ -1,10 +1,14 @@
 body {
     /* text-align: center; */
     padding: 0 30%;
+    font-family:Arial, Helvetica, sans-serifs;
+}
+h1 {
+    text-align: center;
 }
 img { 
-    border-radius: 30px;
-    border width: 5px 
+    border-radius: 40px;
+    border-width: 5px;
     padding: 20px; 
     width: 500px;
     height: 300px;    
@@ -26,7 +30,9 @@ background-color: black;
 nav ul {
     padding-top: 10px;
     padding-bottom: 10px;
-    text-align: center
+    text-align: center;
+    margin-left: 4px
+    
 }
 
 nav ul li {
@@ -41,17 +47,33 @@ nav ul li a{
     color: white;
 }
 
+p a{
+     color: #ff0000;
+}
+
 .number {
     padding: 5px;
-}
-
-nav {
+    width: 100%;
+    display: flex;
+    background-color: grey;
+    justify-content: center;
     text-align: center;
-
-;
-    background: grey
 }
 
-nav a{
+number a {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.num{
+    text-decoration: none;
     color: white;
+
 }
+/* number  {
+    color: white;
+    width: 100%;
+    display: flex;
+} */
