@@ -1,79 +1,84 @@
 body {
     /* text-align: center; */
-    padding: 0 30%;
-    font-family:Arial, Helvetica, sans-serifs;
+    padding: 0px 30%;
+    font-family:Arial;
 }
-h1 {
+h2 {
     text-align: center;
 }
+
+p.one {
+    text-align: center;
+}
+
 img { 
-    border-radius: 40px;
-    border-width: 5px;
+    border-radius: 55px;
+    border-width: 30px;
     padding: 20px; 
     width: 500px;
-    height: 300px;    
+    height: 300px;   
+    opacity: 1px;
 }
-p {
+
+P {
     text-align: center;
 }
-h2{
+
+h3{
     text-align: center;
 }
 
 .container {
     padding: 5px;
+    
 }
+
 nav {
 background-color: black;
 }
 
 nav ul {
-    padding-top: 10px;
-    padding-bottom: 10px;
     text-align: center;
-    margin-left: 4px
-    
+    padding: 20px 50px 20px 50px;
+    width: 80%;
+    justify-content: center;
+
+   
 }
 
 nav ul li {
     text-align: center;
     display: inline;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin: 12px;
    
 }
 
 nav ul li a{
     color: white;
+ 
 }
-
-p a{
-     color: #ff0000;
+ 
+p a {
+    color: #ff0000;
 }
 
 .number {
     padding: 5px;
     width: 100%;
-    display: flex;
-    background-color: grey;
+    background-color: gray;
     justify-content: center;
     text-align: center;
+    display: flex;
 }
 
 number a {
-    text-align: center;
     padding-left: 50px;
     padding-right: 50px;
-    
+    text-align: center;
+    align-items: center;
 }
-
-.num{
-    text-decoration: none;
-    color: white;
-
+ 
+.num {
+      color:#ff0000;
+      text-decoration: none;
 }
-/* number  {
-    color: white;
-    width: 100%;
-    display: flex;
-} */
